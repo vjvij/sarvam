@@ -10,7 +10,7 @@ const LgNavbar = () => {
     },
     {
       name: "About us",
-      link: "/aboutus",
+      link: "/about",
     },
     // {
     //   name: "Products",

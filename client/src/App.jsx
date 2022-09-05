@@ -1,7 +1,8 @@
 import React from 'react'
 import HomePage from "./pages/Home/home.page";
+import Aboutpage from './pages/aboutus/about';
 import {Routes,Route} from "react-router-dom";
-import Aboutpage from './pages/aboutus/aboutus';
+
 
 const App = () => {
   return (
@@ -11,9 +12,10 @@ const App = () => {
         <Route path="/" element={<HomePage />}>
 
         </Route>
-        <Route path='/aboutus' element={<Aboutpage/>}>
+        <Route path='/about' element={<Aboutpage/>}></Route>
+      
 
-        </Route>
+      
      
       </Routes>
     </div>
